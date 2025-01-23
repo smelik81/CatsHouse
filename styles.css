@@ -20,6 +20,13 @@
   letter-spacing: 0.5px;
 }
 
+.header-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  column-gap: 8px;
+  align-items: center;
+}
+
 .main {
   background-color: var(--common-white);
   padding-bottom: 96px;
